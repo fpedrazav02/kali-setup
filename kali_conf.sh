@@ -10,7 +10,7 @@ sudo apt update
 
 #Desktop GNOME install
 
-sudo apt install kali-desktop-gnome -y
+sudo apt install kali-desktop-gnome
 sudo apt remove kali-desktop-xfce xfce4* lightdm* -y
 sudo apt autoremove
 
@@ -22,10 +22,11 @@ sudo unzip $fontl/Hack.zip
 sudo rm $fontl/Hack.zip
 #KITTY, BAT, LSD INSTALL
 
-sudo apt install kitty
+sudo apt install kitty -y
 wget https://raw.githubusercontent.com/rxyhn/bspdots/main/config/kitty/color.ini
 sudo mkdir -p ~/.config/kitty
 sudo mv kitty.conf ~/.config/kitty
+sudo mv color.ini ~/.config/kitty
 
 #LSD and BAT
 wget https://github.com/Peltoche/lsd/releases/download/0.22.0/lsd_0.22.0_amd64.deb .
