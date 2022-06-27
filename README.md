@@ -22,6 +22,21 @@
 <img src="https://github.com/fpedrazav02/kali-setup/blob/main/sample/Captura.PNG" alt="Alt text">
 </div>
 
+<h1> CHEATSHEET </h1>
+- **MOD + SHIFT + Q** --> close TAB
+- **MOD + RETURN** --> open terminal
+- **MOD + D** --> open rofi
+- **MOD + SHIFT + R** --> refresh i3 settings
+- **MOD + S ** --> stack mode
+- **MOD + E** --> Exit stack mode
+- **MOD + F** --> full mode (press again to switch back)
+- **MOD + up,down,left,right** --> toogle between tabs
+- **MOD + R** --> resize mode (press again to exit)
+- ** up,down,left,right ** --> resize in resize mode
+- ** CNTRL + SHIFT + ALT + T ** --> rename current kitty tab
+- ** CNTRL + TAB ** --> toogle between kitty's tabs
+- ** CNTRL + SHIFT + T** --> create new kitty tab
+
 <h1> About Me </h1>
 - Hi 👋, I'm Francisco Pedraza
 - 🌱 I’m currently learning **Cibersecurity,python and bash**
