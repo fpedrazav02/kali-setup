@@ -6,6 +6,15 @@
 <img src="https://github.com/fpedrazav02/kali-setup/blob/main/sample/pic2.PNG" alt="Alt text">
 
 
+
+<h1> Instalation</h1>
+<p>
+  git clone https://github.com/fpedrazav02/kali-setup.git
+  cd ./kali-setup
+  chmod +x install.sh
+  ./install.sh
+</p>
+
 - 🌱 I’m currently learning **Cibersecurity,python and bash**
 
 - 👨‍💻 All of my projects are available at [https://github.com/fpedrazav02/](https://github.com/fpedrazav02/)
