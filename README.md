@@ -23,19 +23,19 @@
 </div>
 
 <h1> CHEATSHEET </h1>
-- **MOD + SHIFT + Q** --> close TAB
-- **MOD + RETURN** --> open terminal
-- **MOD + D** --> open rofi
-- **MOD + SHIFT + R** --> refresh i3 settings
-- **MOD + S ** --> stack mode
-- **MOD + E** --> Exit stack mode
-- **MOD + F** --> full mode (press again to switch back)
-- **MOD + up,down,left,right** --> toogle between tabs
-- **MOD + R** --> resize mode (press again to exit)
-- ** up,down,left,right ** --> resize in resize mode
-- ** CNTRL + SHIFT + ALT + T ** --> rename current kitty tab
-- ** CNTRL + TAB ** --> toogle between kitty's tabs
-- ** CNTRL + SHIFT + T** --> create new kitty tab
+<p>- **MOD + SHIFT + Q** --> close TAB</p>
+<p>- **MOD + RETURN** --> open terminal</p>
+<p>- **MOD + D** --> open rofi</p>
+<p>- **MOD + SHIFT + R** --> refresh i3 settings</p>
+<p>- **MOD + S ** --> stack mode</p>
+<p>- **MOD + E** --> Exit stack mode</p>
+<p>- **MOD + F** --> full mode (press again to switch back)</p>
+<p>- **MOD + up,down,left,right** --> toogle between tabs</p>
+<p>- **MOD + R** --> resize mode (press again to exit)</p>
+<p>- ** up,down,left,right ** --> resize in resize mode</p>
+<p>- ** CNTRL + SHIFT + ALT + T ** --> rename current kitty tab</p>
+<p>- ** CNTRL + TAB ** --> toogle between kitty's tabs</p>
+<p>- ** CNTRL + SHIFT + T** --> create new kitty tab</p>
 
 <h1> About Me </h1>
 - Hi 👋, I'm Francisco Pedraza
