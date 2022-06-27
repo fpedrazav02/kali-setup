@@ -18,7 +18,7 @@
 <div>
 <p> Open a TERMINAL </p>
 <p> sudo rofi -show drun </p>
-<p> SEARCH FOR --> GTK + LightDM  </p>
+<p> SEARCH FOR --> GTK + LightDM  and place the PNG and wallpaper you want </p>
 <img src="https://github.com/fpedrazav02/kali-setup/blob/main/sample/Captura.PNG" alt="Alt text">
 </div>
 
