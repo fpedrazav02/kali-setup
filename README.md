@@ -12,9 +12,16 @@
 <p> git clone https://github.com/fpedrazav02/kali-setup.git </p>
 <p> cd ./kali-setup </p>
 <p>  chmod +x install.sh </p>
- <p> ./install.sh
+ <p> ./install.sh </p>
+</div>
+<h1> Change login in kali </h1>
+<div>
+<p> MOD + d </p>
+<p> SEARCH FOR --> GTK + LightDM  </p>
+<img src="https://github.com/fpedrazav02/kali-setup/blob/main/sample/lightDM" alt="Alt text">
 </div>
 
+<h1> About Me </h1>
 - 🌱 I’m currently learning **Cibersecurity,python and bash**
 
 - 👨‍💻 All of my projects are available at [https://github.com/fpedrazav02/](https://github.com/fpedrazav02/)
