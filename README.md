@@ -16,9 +16,10 @@
 </div>
 <h1> Change login in kali </h1>
 <div>
-<p> MOD + d </p>
+<p> Open a TERMINAL </p>
+<p> sudo rofi -show drun </p>
 <p> SEARCH FOR --> GTK + LightDM  </p>
-<img src="https://github.com/fpedrazav02/kali-setup/blob/main/sample/lightDM" alt="Alt text">
+<img src="https://github.com/fpedrazav02/kali-setup/blob/main/sample/Captura.PNG" alt="Alt text">
 </div>
 
 <h1> About Me </h1>
