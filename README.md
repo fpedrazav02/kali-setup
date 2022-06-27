@@ -8,12 +8,12 @@
 
 
 <h1> Instalation</h1>
-<p>
-  git clone https://github.com/fpedrazav02/kali-setup.git
-  cd ./kali-setup
-  chmod +x install.sh
-  ./install.sh
-</p>
+<div>
+<p> git clone https://github.com/fpedrazav02/kali-setup.git </p>
+<p> cd ./kali-setup </p>
+<p>  chmod +x install.sh </p>
+ <p> ./install.sh
+</div>
 
 - 🌱 I’m currently learning **Cibersecurity,python and bash**
 
