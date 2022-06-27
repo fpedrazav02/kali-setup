@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Francisco Pedraza and welcome to my first kali set up</h1>
+<h1 align="center">Kali SET-UP</h1>
 <h3 align="center">Some samples</h3>
 
 <img src="https://github.com/fpedrazav02/kali-setup/blob/main/sample/login.PNG" alt="Alt text">
@@ -23,6 +23,7 @@
 </div>
 
 <h1> About Me </h1>
+- Hi 👋, I'm Francisco Pedraza
 - 🌱 I’m currently learning **Cibersecurity,python and bash**
 
 - 👨‍💻 All of my projects are available at [https://github.com/fpedrazav02/](https://github.com/fpedrazav02/)
