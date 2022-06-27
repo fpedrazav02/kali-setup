@@ -1,5 +1,5 @@
 <h1 align="center">Kali SET-UP</h1>
-<h3 align="center">Some samples</h3>
+<h2 align="center">Final configuration</h2>
 
 <img src="https://github.com/fpedrazav02/kali-setup/blob/main/sample/login.PNG" alt="Alt text">
 <img src="https://github.com/fpedrazav02/kali-setup/blob/main/sample/pic1.PNG" alt="Alt text">
