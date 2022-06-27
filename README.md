@@ -1,5 +1,12 @@
-<h1 align="center">Hi 👋, I'm Francisco Pedraza</h1>
-<h3 align="center">A passionate frontend developer from Spain</h3>
+<h1 align="center">Hi 👋, I'm Francisco Pedraza and welcome to my first kali set up</h1>
+<h3 align="center">Some samples</h3>
+<p><a href="https://github.com/fpedrazav02/kali-setup/blob/main/sample/login.PNG"></p>
+<p><a href="https://github.com/fpedrazav02/kali-setup/blob/main/sample/pic1.PNG"></p>
+<p><a href="https://github.com/fpedrazav02/kali-setup/blob/main/sample/pic2.PNG"></p>
+
+
+
+
 
 - 🌱 I’m currently learning **Cibersecurity,python and bash**
 
