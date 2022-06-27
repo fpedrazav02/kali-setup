@@ -1,11 +1,9 @@
 <h1 align="center">Hi 👋, I'm Francisco Pedraza and welcome to my first kali set up</h1>
 <h3 align="center">Some samples</h3>
-<p><a href="https://github.com/fpedrazav02/kali-setup/blob/main/sample/login.PNG"></p>
-<p><a href="https://github.com/fpedrazav02/kali-setup/blob/main/sample/pic1.PNG"></p>
-<p><a href="https://github.com/fpedrazav02/kali-setup/blob/main/sample/pic2.PNG"></p>
 
-
-
+<img src="https://github.com/fpedrazav02/kali-setup/blob/main/sample/login.PNG" alt="Alt text">
+<img src="https://github.com/fpedrazav02/kali-setup/blob/main/sample/pic1.PNG" alt="Alt text">
+<img src="https://github.com/fpedrazav02/kali-setup/blob/main/sample/pic2.PNG" alt="Alt text">
 
 
 - 🌱 I’m currently learning **Cibersecurity,python and bash**
