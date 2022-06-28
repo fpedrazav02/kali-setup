@@ -107,11 +107,11 @@ then
 	sudo apt update
 fi
 
-sleep 1
+sleep 2
 
 echo -e "${BGreen}Now we will start to download all dependencies needed${Color_Off}"
 
-sleep 1
+sleep 3
 
 clear
 
@@ -125,7 +125,7 @@ sudo apt install libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev l
 #HACK NERD FONTS AND EMOJIS
 clear
 echo -e "${BGreen}Hack Nerd and Awesome emojis install...${Color_Off}"
-sleep 1
+sleep 3
 
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip
 mkdir ~/.fonts
@@ -142,7 +142,7 @@ rm -rf fontawesome-free-6.1.1-desktop*
 #KITTY INSTALATION
 clear
 echo -e "${BGreen}Kitty install...${Color_Off}"
-sleep 1
+sleep 3
 
 sudo mkdir -p ~/.config/kitty
 wget https://raw.githubusercontent.com/rxyhn/bspdots/main/config/kitty/color.ini
@@ -192,7 +192,7 @@ cd $location
 #UPDATING CONFIG FILES
 clear
 echo -e "${BGreen}Updating config files...Do you wish to install your own? (yes/no)${Color_Off}"
-sleep 1
+sleep 2
 read files
 if [ $files == "no" ]
 then
@@ -212,8 +212,8 @@ fi
 #NVIM
 clear
 echo -e "${BGreen}Instalim NVCHAD theme...${Color_Off}"
-echo -e "${BGreen}AFTER INSTALATION, quit NVIM AND REBOOT${Color_Off}"
-echo -e "${RED}Next time pls log into i3 desktop\!${Color_Off}"
+echo -e "${Yellow}AFTER INSTALATION, quit NVIM AND REBOOT${Color_Off}"
+echo -e "${Red}Next time pls log into i3 desktop\!${Color_Off}"
 sleep 5
 
 cd ~/Descargas
