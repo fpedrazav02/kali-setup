@@ -19,7 +19,7 @@
 <p> 1st PART </p>
 <p> sudo apt  install i3             (terminal)</p>
 <p> reboot                           (terminal) </p>
-<p> Enter username/password but log into i3 interface, top select interface click on one of the buttons on the top right corner</p>
+<p> Enter username/password but log into i3 interface, to select interface click on one of the buttons on the top right corner</p>
 
 <p> 2nd PART </p>
 <p> MOD + ENTER</p>
