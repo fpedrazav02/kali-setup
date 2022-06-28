@@ -14,6 +14,13 @@
 <p>(https://github.com/FortAwesome/Font-Awesome/releases)</p>
 <h1> Instalation</h1>
 <div>
+
+<p> 1st PART </p>
+<p> sudo apt  install i3 (terminal)</p>
+<p> reboot (terminal) </p>
+<p> Enter username/password but log into i3 interface, top select interface click on one of the buttons on the top right corner</p>
+
+
 <p> git clone https://github.com/fpedrazav02/kali-setup.git </p>
 <p> cd ./kali-setup </p>
 <p>  chmod +x install.sh </p>
