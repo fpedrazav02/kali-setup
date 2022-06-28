@@ -204,7 +204,7 @@ then
 	cp ~/kali-setup/dotfiles/picom.conf ~/.config/picom
 	echo -e "${Bgreen}\t[*]Copying i3 configuration...${Color_Off}"
 	mkdir ~/.config/i3
-	cp ~/kali-setup/dotfiles/conf ~/.config/i3
+	cp ~/kali-setup/dotfiles/config ~/.config/i3
 	echo -e "${Bgreen}\t[*]Copying i3-blocks configuration...${Color_Off}"
 	mkdir ~/.i3
 	cp ~/kali-setup/dotfiles/i3blocks.conf ~/.i3
