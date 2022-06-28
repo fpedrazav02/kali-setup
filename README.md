@@ -32,6 +32,7 @@
  <p>p10k configure</p>
  <p> NOTE: If you do not like or want to think a lot, you can copy my .p10k file from the dotfiles folder and reset terminal after</p>
  <p> cp ~/kali-setup/dotfiles/.p10k.zsh ~</p>
+  <p> change wallpaper file in ~/.paper and rename it to .wallpaper</p>
 </div>
 <h1> Change login in kali </h1>
 <div>
