@@ -6,11 +6,12 @@
 <img src="https://github.com/fpedrazav02/kali-setup/blob/main/sample/pic2.PNG" alt="Alt text">
 <h1> Disclaimer ⚠️</h1>
 <p> Most tools used were created by other amazing creators! These are links to their original repositories!</p>
-<p>(https://github.com/romkatv/powerlevel10k) </p>
+<p>(https://github.com/romkatv/powerlevel10k) </p> 
 <p>(https://github.com/yshui/picom)</p>
 <p>(https://github.com/catppuccin/rofi)</p>
 <p>(https://github.com/i3/i3)</p>
-
+<p>(https://github.com/NvChad/NvChad)</p>
+<p>(https://github.com/FortAwesome/Font-Awesome/releases)</p>
 <h1> Instalation</h1>
 <div>
 <p> git clone https://github.com/fpedrazav02/kali-setup.git </p>
