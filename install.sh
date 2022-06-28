@@ -213,10 +213,10 @@ fi
 
 #NVIM
 clear
-echo -e "${BGreen}Instalim NVCHAD theme...${Color_Off}"
-echo -e "${Yellow}AFTER INSTALATION, quit NVIM AND REBOOT${Color_Off}"
-echo -e "${Red}Next time pls log into i3 desktop!${Color_Off}"
-sleep 7
+echo -e "${BGreen}Instalin NVCHAD theme...${Color_Off}"
+echo -e "${Yellow}AFTER INSTALATION, quit NVIM AND Change login page and background${Color_Off}"
+echo -e "${Red}Remember to log into i3 desktop!${Color_Off}"
+sleep 10
 
 cd ~/Descargas
 wget https://github.com/neovim/neovim/releases/download/v0.7.0/nvim-linux64.deb .
