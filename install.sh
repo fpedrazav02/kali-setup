@@ -122,9 +122,9 @@ sudo apt install -y neofetch feh rofi picom i3-gaps i3blocks lxappearance kitty 
 #PICOM dependencies
 sudo apt install libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev  libpcre2-dev  libevdev-dev uthash-dev libev-dev libx11-xcb-dev
 
-#HACK NERD FONTS
+#HACK NERD FONTS AND EMOJIS
 clear
-echo -e "{BGreen}Hack Nerd Fonts install...{Color_Off}"
+echo -e "{BGreen}Hack Nerd and Awesome emojis install...{Color_Off}"
 sleep 1
 
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip
@@ -132,6 +132,12 @@ mkdir ~/.fonts
 sudo mv Hack.zip ~/.fonts
 sudo unzip ~/.fonts/Hack.zip
 sudo rm ~/.fonts/Hack.zip
+
+wget /FortAwesome/Font-Awesome/releases/download/6.1.1/fontawesome-free-6.1.1-desktop.zip
+unzip fontawesome-free-6.1.1-desktop.zip
+mv fontawesome-free-6.1.1-desktop/*.ttl ~/.fonts
+rm -rf fontawesome-free-6.1.1-desktop*
+
 
 #KITTY INSTALATION
 clear
