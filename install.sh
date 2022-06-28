@@ -116,7 +116,7 @@ sleep 1
 clear
 
 #Mayor Dependencies
-sudo apt install -y neofetch feh rofi picom i3-gaps i3blocks lxappearance kitty
+sudo apt install -y neofetch feh rofi picom i3-gaps i3blocks lxappearance kitty i3
 
 
 #PICOM dependencies
