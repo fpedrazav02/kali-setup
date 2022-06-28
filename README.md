@@ -19,9 +19,7 @@
 <p> ./install.sh </p>
  <p> ###########################################################</p>
  <p> After instalation either run </p>
- <p> zsh </p>
- <p align=center> or </p>
- <p> p10k configure </p>
+ <p>p10k configure</p>
  <p> NOTE: If you do not like or want to think a lot, you can copy my .p10k file from the dotfiles folder and reset terminal after</p>
  <p> cp ~/kali-setup/dotfiles/.p10k.zsh ~</p>
 </div>
