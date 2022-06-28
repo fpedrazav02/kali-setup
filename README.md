@@ -20,7 +20,8 @@
 <p> reboot (terminal) </p>
 <p> Enter username/password but log into i3 interface, top select interface click on one of the buttons on the top right corner</p>
 
-
+<p> 2nd PART </p>
+<p> MOD + ENTER</p>
 <p> git clone https://github.com/fpedrazav02/kali-setup.git </p>
 <p> cd ./kali-setup </p>
 <p>  chmod +x install.sh </p>
