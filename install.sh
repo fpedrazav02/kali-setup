@@ -100,7 +100,7 @@ fi
 
 #UPDATE KALI
 
-echo -e "{BGreen}Do you wish to update kali's repositories? (yes / no){Color_Off}"
+echo -e "${BGreen} Do you wish to update kali's repositories? (yes / no)${Color_Off}"
 read update
 if [ $update == "yes" ]
 then
@@ -109,7 +109,7 @@ fi
 
 sleep 1
 
-echo -e "{BGreen}Now we will start to download all dependencies needed{Color_Off}"
+echo -e "${BGreen}Now we will start to download all dependencies needed${Color_Off}"
 
 sleep 1
 
@@ -124,7 +124,7 @@ sudo apt install libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev l
 
 #HACK NERD FONTS AND EMOJIS
 clear
-echo -e "{BGreen}Hack Nerd and Awesome emojis install...{Color_Off}"
+echo -e "${BGreen}Hack Nerd and Awesome emojis install...${Color_Off}"
 sleep 1
 
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip
@@ -141,7 +141,7 @@ rm -rf fontawesome-free-6.1.1-desktop*
 
 #KITTY INSTALATION
 clear
-echo -e "{BGreen}Kitty install...{Color_Off}"
+echo -e "${BGreen}Kitty install...${Color_Off}"
 sleep 1
 
 sudo mkdir -p ~/.config/kitty
@@ -168,7 +168,7 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 
 #set wallpaper
 clear
-echo -e "{BGreen}Setting a random wallpaper... to use your own please refer to README section{Color_Off}"
+echo -e "${BGreen}Setting a random wallpaper... to use your own please refer to README section${Color_Off}"
 sleep 4
 
 mkdir ~/.paper
@@ -191,29 +191,29 @@ cd $location
 
 #UPDATING CONFIG FILES
 clear
-echo -e "{BGreen}Updating config files...Do you wish to install your own? (yes/no){Color_Off}"
+echo -e "${BGreen}Updating config files...Do you wish to install your own? (yes/no)${Color_Off}"
 sleep 1
 read files
 if [ $files == "no" ]
 then
-	echo -e "{BBlue}Updating files...{Color_Off}"
+	echo -e "${BBlue}Updating files...${Color_Off}"
 	sleep 1
-	echo -e "{Bgreen}\t[*]Copying picom configuration...{Color_Off}"
+	echo -e "${Bgreen}\t[*]Copying picom configuration...${Color_Off}"
 	mkdir ~/.config/picom
 	cp $flocation/dotfiles/picom.conf ~/.config/picom
-	echo -e "{Bgreen}\t[*]Copying i3 configuration...{Color_Off}"
+	echo -e "${Bgreen}\t[*]Copying i3 configuration...${Color_Off}"
 	mkdir ~/.config/i3
 	cp $flocation/dotfiles/conf ~/.config/i3
-	echo -e "{Bgreen}\t[*]Copying i3-blocks configuration...{Color_Off}"
+	echo -e "${Bgreen}\t[*]Copying i3-blocks configuration...${Color_Off}"
 	mkdir ~/.i3
 	cp $flocation/dotfiles/i3blocks.conf ~/.i3
 fi
 
 #NVIM
 clear
-echo -e "{BGreen}Instalim NVCHAD theme...{Color_Off}"
-echo -e "{BGreen}AFTER INSTALATION, quit NVIM AND REBOOT{Color_Off}"
-echo -e "{RED}Next time pls log into i3 desktop\!{Color_Off}"
+echo -e "${BGreen}Instalim NVCHAD theme...${Color_Off}"
+echo -e "${BGreen}AFTER INSTALATION, quit NVIM AND REBOOT${Color_Off}"
+echo -e "${RED}Next time pls log into i3 desktop\!${Color_Off}"
 sleep 5
 
 cd ~/Descargas
