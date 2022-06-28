@@ -208,14 +208,15 @@ then
 	echo -e "${Bgreen}\t[*]Copying i3-blocks configuration...${Color_Off}"
 	mkdir ~/.i3
 	cp ~/kali-setup/dotfiles/i3blocks.conf ~/.i3
+	sleep 3
 fi
 
 #NVIM
 clear
 echo -e "${BGreen}Instalim NVCHAD theme...${Color_Off}"
 echo -e "${Yellow}AFTER INSTALATION, quit NVIM AND REBOOT${Color_Off}"
-echo -e "${Red}Next time pls log into i3 desktop\!${Color_Off}"
-sleep 5
+echo -e "${Red}Next time pls log into i3 desktop!${Color_Off}"
+sleep 7
 
 cd ~/Descargas
 wget https://github.com/neovim/neovim/releases/download/v0.7.0/nvim-linux64.deb .
