@@ -12,6 +12,7 @@
 <p>(https://github.com/i3/i3)</p>
 <p>(https://github.com/NvChad/NvChad)</p>
 <p>(https://github.com/FortAwesome/Font-Awesome/releases)</p>
+<p>(https://github.com/junegunn/fzf)</p>
 <h1> Instalation</h1>
 <div>
 
