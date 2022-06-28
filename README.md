@@ -48,7 +48,7 @@
 
 <h1> About Me </h1>
 - Hi 👋, I'm Francisco Pedraza
-- 🌱 I’m currently learning **Cibersecurity,python and bash**
+- 🌱 I’m currently learning **Cibersecurity, python and bash**
 
 - 👨‍💻 All of my projects are available at [https://github.com/fpedrazav02/](https://github.com/fpedrazav02/)
 
