@@ -17,10 +17,10 @@
 <div>
 
 <p> 1st PART </p>
-<p> sudo apt  install i3             (terminal)</p>
-<p> reboot                           (terminal) </p>
+<p> sudo apt  install i3                                      (terminal)</p>
+<p> reboot           !!!!!!READ NEXT STEP!!!!!                (terminal) </p>
 <p> Enter username/password but log into i3 interface, to select interface click on one of the buttons on the top right corner</p>
-
+<img src="https://github.com/fpedrazav02/kali-setup/blob/main/sample/unknown.png">
 <p> 2nd PART </p>
 <p> MOD + ENTER</p>
 <p> git clone https://github.com/fpedrazav02/kali-setup.git </p>
