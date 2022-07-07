@@ -260,6 +260,12 @@ then
 	cp ~/dotfile/config.rasi ~/.config/rofi
 fi
 
+#POLYBAR SETUP
+sudo apt install polybar
+mkdir ~/.config/polybar
+cp /usr/share/doc/polybar/examples/config.ini ~/.config/polybar
+
+
 #UPDATING CONFIG FILES
 clear
 echo -e "${BGreen}Updating config files...Do you wish to install your own? (yes/no)${Color_Off}"
