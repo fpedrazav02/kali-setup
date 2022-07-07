@@ -155,6 +155,7 @@ bindsym $mod+Shift+0 move container to workspace $wsSPOTIFY
 assign [class="kitty"] $wskitty
 assign [class="Brave-browser"] $wsfirefox
 assign [class="Lotion"] $wsNotion
+assign [class="Spotify"] $wsSPOTIFY
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -230,6 +231,7 @@ bar {
 bindsym $mod+shift+x exec i3lock --color "$bg-color"
 bindsym $mod+shift+n exec rofi -show run -filter lotion-web -auto-select
 bindsym $mod+shift+b exec rofi -show drun -filter Brave Web Browser -auto-select
+bindsym $mod+shift+m exec rofi -show drun -filter Spotify -auto-select
 
 #exec_always neofetch
 #exec_always firefox
