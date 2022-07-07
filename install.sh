@@ -134,10 +134,10 @@ sudo unzip ~/.fonts/Hack.zip
 mv *.ttf ~/.fonts
 sudo rm ~/.fonts/Hack.zip
 
-wget /FortAwesome/Font-Awesome/releases/download/6.1.1/fontawesome-free-6.1.1-desktop.zip
-unzip fontawesome-free-6.1.1-desktop.zip
-mv fontawesome-free-6.1.1-desktop/*.ttl ~/.fonts
-rm -rf fontawesome-free-6.1.1-desktop*
+git clone https://github.com/FortAwesome/Font-Awesome.git
+mv Font-Awesome/otfs/*otf ~/.fonts
+mv Font-Awesome/webfonts/*ttf ~/.fonts
+rm -rf Font-Awesome
 
 #INSTALLING BRAVE
 sudo apt install apt-transport-https curl
