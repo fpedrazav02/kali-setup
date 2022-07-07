@@ -216,9 +216,24 @@ echo -e "${BGreen}Setting a random wallpaper... to use your own please refer to 
 sleep 4
 
 mkdir ~/.paper
-wget https://grepitout.com/wp-content/uploads/2018/07/kali-linux-wallpaper-3-1920x1080.jpg
-mv kali-linux-wallpaper-3-1920x1080.jpg .wallpaper
-mv .wallpaper ~/.paper
+
+echo -e "${BGreen}Select your ROFI theme${Color_Off}"
+sleep 3
+echo -e "${yellow}1) Light wallpaper${Color_Off}"
+echo -e "${yellow}2) Dark wallpaper${Color_Off}"
+
+read wallpaper
+if [ $wallpaper == 2 ]
+then
+	wget https://grepitout.com/wp-content/uploads/2018/07/kali-linux-wallpaper-3-1920x1080.jpg
+	mv kali-linux-wallpaper-3-1920x1080.jpg .wallpaper
+	mv .wallpaper ~/.paper
+else
+	mv ~/kali-setup/sample/anime-landscape-sunset-coast-clouds-anime-school-girl-scenery.jpg .wallpaper
+	mv ~/kali-setup/sample/.wallpaper ~/.paper
+fi
+
+
 
 #ROFI SET UP
 cd ~
