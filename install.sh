@@ -264,7 +264,8 @@ fi
 sudo apt install polybar
 mkdir ~/.config/polybar
 cp /usr/share/doc/polybar/examples/config.ini ~/.config/polybar
-
+mv ~/kali-setup/dotfiles/launch.sh  ~/.config/polybar
+chmod +x ~/.config/polybar/launch.sh
 
 #UPDATING CONFIG FILES
 clear
