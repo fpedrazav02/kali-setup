@@ -229,7 +229,7 @@ bar {
 
 bindsym $mod+shift+x exec i3lock --color "$bg-color"
 bindsym $mod+shift+n exec rofi -show run -filter lotion-web -auto-select
-bindsym $mod+shift+b exec rofi -show run -filter brave-browser -auto-select
+bindsym $mod+shift+b exec rofi -show drun -filter Brave Web Browser -auto-select
 
 #exec_always neofetch
 #exec_always firefox
