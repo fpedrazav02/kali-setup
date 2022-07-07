@@ -236,6 +236,8 @@ bindsym $mod+shift+x exec i3lock --color "$bg-color"
 bindsym $mod+shift+n exec rofi -show run -filter lotion-web -auto-select
 bindsym $mod+shift+b exec rofi -show drun -filter Brave Web Browser -auto-select
 bindsym $mod+shift+m exec rofi -show drun -filter Spotify -auto-select
+bindsym $mod+shift+c exec rofi -show drun -filter Code -auto-select
+bindsym $mod+shift+d exec rofi -show drun -filter Spotify -auto-select
 
 #exec_always neofetch
 #exec_always firefox
