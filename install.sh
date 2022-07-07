@@ -155,6 +155,10 @@ curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | sudo 
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
 sudo apt-get update && sudo apt-get install spotify-client
 
+#INSTALLING NOTION (LOTION)
+wget https://raw.githubusercontent.com/puneetsl/lotion/master/setup.sh
+chmod +x setup.sh
+sudo ./setup.sh web
 
 #KITTY INSTALATION
 clear
