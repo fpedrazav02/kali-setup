@@ -233,6 +233,18 @@ cp -r ./.config/rofi/* ~/.config/rofi
 cp -r ./.local/share/rofi/themes/* ~/.local/share/rofi/themes/
 cd ~
 
+#ROFI THEME SELECT
+echo -e "${BGreen}Select your ROFI theme${Color_Off}"
+sleep 3
+echo -e "${yellow}1) Light theme${Color_Off}"
+echo -e "${yellow}2) Dark theme${Color_Off}"
+
+read number
+if [ $number == 1 ]
+then
+	cp ~/dotfile/config.rasi ~/.config/rofi
+fi
+
 #UPDATING CONFIG FILES
 clear
 echo -e "${BGreen}Updating config files...Do you wish to install your own? (yes/no)${Color_Off}"
