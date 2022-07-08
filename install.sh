@@ -217,7 +217,7 @@ sleep 4
 
 mkdir ~/.paper
 
-echo -e "${BGreen}Select your ROFI theme${Color_Off}"
+echo -e "${BGreen}Select your wallpaper theme${Color_Off}"
 sleep 3
 echo -e "${yellow}1) Light wallpaper${Color_Off}"
 echo -e "${yellow}2) Dark wallpaper${Color_Off}"
