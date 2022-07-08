@@ -323,3 +323,5 @@ sudo apt install ./nvim-linux64.deb
 echo 'alias vim="nvim"' >> ~/.zshrc
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 ; nvim
 
+#typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
+#https://github.com/ornicar/dotfiles/blob/master/p10k.zsh
