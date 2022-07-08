@@ -128,7 +128,7 @@ cd picom-jonaburg-fix
 git submodule update --init --recursive
 meson --buildtype=release . build
 ninja -C build install
-
+cd ~
 
 #HACK NERD FONTS AND EMOJIS
 clear
