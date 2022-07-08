@@ -289,13 +289,13 @@ if [ $files == "no" ]
 then
 	echo -e "${BBlue}Updating files...${Color_Off}"
 	sleep 1
-	echo -e "${Bgreen}\t[*]Copying picom configuration...${Color_Off}"
+	echo -e "${Bgreen}      [*]Copying picom configuration...${Color_Off}"
 	mkdir ~/.config/picom
 	cp ~/kali-setup/dotfiles/picom.conf ~/.config/picom
-	echo -e "${Bgreen}\t[*]Copying i3 configuration...${Color_Off}"
-	mkdir ~/.config/i3
+	echo -e "${Bgreen}      [*]Copying i3 configuration...${Color_Off}"
+	#mkdir ~/.config/i3
 	cp ~/kali-setup/dotfiles/config ~/.config/i3
-	echo -e "${Bgreen}\t[*]Copying i3-blocks configuration...${Color_Off}"
+	echo -e "${Bgreen}      [*]Copying i3-blocks configuration...${Color_Off}"
 	mkdir ~/.i3
 	cp ~/kali-setup/dotfiles/i3blocks.conf ~/.i3
 	sleep 3
