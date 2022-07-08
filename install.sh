@@ -125,7 +125,7 @@ sleep 1
 clear
 echo -e "${BGreen}Picom install...${Color_Off}"
 sleep 3
-sudo apt install meson ninja cmake asciidoc libpcre-ocaml-dev libudev-dev
+sudo apt install meson cmake asciidoc libpcre-ocaml-dev libudev-dev
 
 #PICOM BLURRED Arian
 git clone https://github.com/Arian8j2/picom-jonaburg-fix.git
