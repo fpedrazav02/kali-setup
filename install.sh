@@ -257,7 +257,7 @@ echo -e "${yellow}2) Dark theme${Color_Off}"
 read number
 if [ $number == 1 ]
 then
-	cp ~/kali-setup/dotfile/config.rasi ~/.config/rofi
+	cp ~/kali-setup/dotfiles/config.rasi ~/.config/rofi
 fi
 
 #POLYBAR SETUP
