@@ -138,7 +138,8 @@ git clone https://github.com/Arian8j2/picom-jonaburg-fix.git
 cd picom-jonaburg-fix
 git submodule update --init --recursive
 meson --buildtype=release . build
-ninja -C build install
+sleep 1
+sudo ninja -C build install
 cd ~
 
 #HACK NERD FONTS AND EMOJIS
