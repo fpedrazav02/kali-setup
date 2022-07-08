@@ -120,6 +120,11 @@ sudo apt install neofetch feh rofi i3-gaps i3blocks lxappearance kitty lolcat co
 
 #PICOM dependencies
 sudo apt install libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev  libpcre2-dev  libevdev-dev uthash-dev libev-dev libx11-xcb-dev
+sleep 1
+
+clear
+echo -e "${BGreen}Picom install...${Color_Off}"
+sleep 3
 sudo apt install meson ninja cmake asciidoc libpcre-ocaml-dev libudev-dev
 
 #PICOM BLURRED Arian
