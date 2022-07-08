@@ -190,7 +190,7 @@ sleep 3
 
 sudo mkdir -p ~/.config/kitty
 wget https://raw.githubusercontent.com/rxyhn/bspdots/main/config/kitty/color.ini
-sudo mv dotfiles/kitty.conf ~/.config/kitty
+sudo mv ~/kali-setup/dotfiles/kitty.conf ~/.config/kitty
 sudo mv color.ini ~/.config/kitty
 
 #LSD AND BAT INSTALL
