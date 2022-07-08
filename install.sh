@@ -229,7 +229,7 @@ then
 	mv kali-linux-wallpaper-3-1920x1080.jpg .wallpaper
 	mv .wallpaper ~/.paper
 else
-	mv ~/kali-setup/sample/anime-landscape-sunset-coast-clouds-anime-school-girl-scenery.jpg .wallpaper
+	mv ~/kali-setup/sample/anime-landscape-sunset-coast-clouds-anime-school-girl-scenery.jpg ~/kali-setup/sample/.wallpaper
 	mv ~/kali-setup/sample/.wallpaper ~/.paper
 fi
 
