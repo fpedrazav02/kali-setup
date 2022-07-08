@@ -308,6 +308,7 @@ then
 fi
 
 #NVIM
+echo "neofetch" >> .zshrc
 rm -rf ~/discord.tar*
 clear
 echo -e "${BGreen}Instalin NVCHAD theme...${Color_Off}"
