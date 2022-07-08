@@ -132,12 +132,14 @@ sleep 1
 sudo apt install -y libpcre-ocaml-dev libudev-dev
 
 #PICOM BLURRED Arian
-#git clone https://github.com/Arian8j2/picom-jonaburg-fix.git
-#cd picom-jonaburg-fix
-#git submodule update --init --recursive
-#meson --buildtype=release . build
-#ninja -C build install
-#cd ~
+clear
+sleep 2
+git clone https://github.com/Arian8j2/picom-jonaburg-fix.git
+cd picom-jonaburg-fix
+git submodule update --init --recursive
+meson --buildtype=release . build
+ninja -C build install
+cd ~
 
 #HACK NERD FONTS AND EMOJIS
 clear
