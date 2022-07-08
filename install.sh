@@ -302,6 +302,7 @@ then
 fi
 
 #NVIM
+rm -rf ~/discord.tar*
 clear
 echo -e "${BGreen}Instalin NVCHAD theme...${Color_Off}"
 echo -e "${Yellow}AFTER INSTALATION, quit NVIM AND Change login page and background${Color_Off}"
