@@ -266,7 +266,7 @@ smart_gaps on
 smart_borders on
 set $inner_gaps 15
 set $outer_gaps 0
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 0
 gaps inner $inner_gaps
 gaps outer $outer_gaps
 #gaps inner 10
