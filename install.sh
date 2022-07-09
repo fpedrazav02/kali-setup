@@ -343,6 +343,9 @@ sudo apt-get install libglib2.0-dev
 sudo apt install build-essential
 sudo apt-get install manpages-dev
 sudo apt-get -y install glibc-source
+sudo apt-get install gcc-4.9
+sudo apt-get upgrade libstdc++6
+
 
 #EWW GITHUB
 git clone https://github.com/elkowar/eww
@@ -352,5 +355,6 @@ cd target/release
 chmod +x ./eww
 #./eww daemon
 #./eww open <window_name>
+
 
 
