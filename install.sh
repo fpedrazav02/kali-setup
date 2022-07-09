@@ -325,3 +325,32 @@ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 ; nvim
 
 #typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 #https://github.com/ornicar/dotfiles/blob/master/p10k.zsh
+
+
+
+
+######EWWW NOTES#######
+
+#DEPENDENCIES
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+sudo apt install cargo
+sudo apt-get install libgtk-3-dev
+sudo apt-get install -y libsdl-pango-dev
+sudo apt-get install -y libgdk-pixbuf2.0-dev
+sudo apt-get install libcairo2-dev
+sudo apt-get install libglib2.0-dev
+sudo apt install build-essential
+sudo apt-get install manpages-dev
+sudo apt-get -y install glibc-source
+
+#EWW GITHUB
+git clone https://github.com/elkowar/eww
+cd eww
+cargo build --release
+cd target/release
+chmod +x ./eww
+#./eww daemon
+#./eww open <window_name>
+
+
