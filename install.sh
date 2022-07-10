@@ -309,7 +309,8 @@ then
 fi
 
 #NVIM
-echo "neofetch" >> .zshrc
+echo "neofetch --kitty --source /home/kali/.paper/wallhaven-o38lwp.png" >> .zshrc
+mv ~/kali-setup/sample/wallhaven-o38lwp.png ~/.paper
 rm -rf ~/discord.tar*
 clear
 echo -e "${BGreen}Instalin NVCHAD theme...${Color_Off}"
