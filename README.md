@@ -41,7 +41,7 @@ chmod +x install.sh
  <p> NOTE: If you do not like or want to think a lot, you can copy my .p10k file from the dotfiles folder and reset terminal after</p>
  
  ```shell
- cp ~/kali-setup/dotfiles/.p10k.zsh ~</p>
+ cp ~/kali-setup/dotfiles/.p10k.zsh ~
  ```
   <p> change wallpaper file in ~/.paper and rename it to .wallpaper</p>
 </div>
