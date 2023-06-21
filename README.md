@@ -33,7 +33,6 @@ cd ./kali-setup
 chmod +x install.sh
 ./install.sh
 ```
- <p> ###########################################################</p>
  <p> After instalation either run </p>
  
  ```bash
