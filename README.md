@@ -17,8 +17,10 @@
 <div>
 
 <p> 1st PART </p>
-<p> sudo apt  install i3                                      (terminal)</p>
-<p> reboot           !!!!!!READ NEXT STEP!!!!!                (terminal) </p>
+```bash
+sudo apt  install i3
+sudo init 0
+```
 <p> Enter username/password but log into i3 interface, to select interface click on one of the buttons on the top right corner</p>
 <img src="https://github.com/fpedrazav02/kali-setup/blob/main/sample/unknown.png">
 <p> 2nd PART </p>
@@ -26,7 +28,7 @@
 
 ```bash
 git clone https://github.com/fpedrazav02/kali-setup.git
-cd ./kali-setup>
+cd ./kali-setup
 chmod +x install.sh
 ./install.sh
 ```
@@ -36,13 +38,17 @@ chmod +x install.sh
  p10k configure
 ```
  <p> NOTE: If you do not like or want to think a lot, you can copy my .p10k file from the dotfiles folder and reset terminal after</p>
- <p> cp ~/kali-setup/dotfiles/.p10k.zsh ~</p>
+ ```shell
+ cp ~/kali-setup/dotfiles/.p10k.zsh ~</p>
+ ```
   <p> change wallpaper file in ~/.paper and rename it to .wallpaper</p>
 </div>
 <h1> Change login in kali </h1>
 <div>
 <p> Open a TERMINAL </p>
-<p> sudo rofi -show drun </p>
+ ```shell
+sudo rofi -show drun
+ ```
 <p> SEARCH FOR --> GTK + LightDM  and place the PNG and wallpaper you want </p>
 <img src="https://github.com/fpedrazav02/kali-setup/blob/main/sample/Captura.PNG" alt="Alt text">
 </div>
