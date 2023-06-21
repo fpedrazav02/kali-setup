@@ -35,10 +35,12 @@ chmod +x install.sh
 ```
  <p> ###########################################################</p>
  <p> After instalation either run </p>
+ 
  ```bash
  p10k configure
 ```
  <p> NOTE: If you do not like or want to think a lot, you can copy my .p10k file from the dotfiles folder and reset terminal after</p>
+ 
  ```shell
  cp ~/kali-setup/dotfiles/.p10k.zsh ~</p>
  ```
@@ -47,9 +49,11 @@ chmod +x install.sh
 <h1> Change login in kali </h1>
 <div>
 <p> Open a TERMINAL </p>
+ 
  ```shell
 sudo rofi -show drun
  ```
+
 <p> SEARCH FOR --> GTK + LightDM  and place the PNG and wallpaper you want </p>
 <img src="https://github.com/fpedrazav02/kali-setup/blob/main/sample/Captura.PNG" alt="Alt text">
 </div>
