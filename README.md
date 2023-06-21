@@ -23,13 +23,18 @@
 <img src="https://github.com/fpedrazav02/kali-setup/blob/main/sample/unknown.png">
 <p> 2nd PART </p>
 <p> MOD + ENTER</p>
-<p> git clone https://github.com/fpedrazav02/kali-setup.git </p>
-<p> cd ./kali-setup </p>
-<p>  chmod +x install.sh </p>
-<p> ./install.sh </p>
+
+```bash
+git clone https://github.com/fpedrazav02/kali-setup.git
+cd ./kali-setup>
+chmod +x install.sh
+./install.sh
+```
  <p> ###########################################################</p>
  <p> After instalation either run </p>
- <p>p10k configure</p>
+ ```bash
+ p10k configure
+```
  <p> NOTE: If you do not like or want to think a lot, you can copy my .p10k file from the dotfiles folder and reset terminal after</p>
  <p> cp ~/kali-setup/dotfiles/.p10k.zsh ~</p>
   <p> change wallpaper file in ~/.paper and rename it to .wallpaper</p>
