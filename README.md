@@ -17,6 +17,7 @@
 <div>
 
 <p> 1st PART </p>
+
 ```bash
 sudo apt  install i3
 sudo init 0
